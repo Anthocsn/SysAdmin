@@ -1,4 +1,7 @@
+#Robocoy
+
 ROBOCOPY "Source" "Destination" /E /XO /ETA /w:1 /R:1
+
 
 /E : Copie les sous-répertoires. Cette option inclut automatiquement les répertoires vides.
 /XO : Les fichiers du répertoire source plus anciens que la destination sont exclus de la copie.
