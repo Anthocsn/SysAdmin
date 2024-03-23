@@ -1,5 +1,7 @@
 # Gestion des utilisateurs
 
+## Les commandes de base 
+
 * useradd : Permet de créer ou de mettre à jour les informations par défaut d'un utilisateur.
 * userdel : Permet de supprimer un utilisateurs ainsi que ses fichiers.
 * usermod : Permet de modifier un utilisateur.
