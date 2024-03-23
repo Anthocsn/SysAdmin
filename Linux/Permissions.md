@@ -35,3 +35,14 @@ Exemple : `chown newuser:newgroupe file.txt`
 Lorsque le SUID ou le SGID est paramètré sur un fichier cela permet à n'importe quel utilisateur ayant accés au fichier de l'éxécuter avec les droits du propriétaire du fichier. La lettre `s` est utilisé à la place du `x` dans les droits d'accès.
 
 Cela peut créer une grosse faille de sécurité car certaines applications permettent l'exécution d'un shell et si le propriétaire est root cela permet à n'importe qui d'ouvrir un shell en tant que root.
+
+# Sticky Bit
+
+Le sticky Bit peut être activé sur un dossier pour ajouter une couche de sécurité supplémentaire en n'autorisant uniquement le propriétaire, le propriétaire du dossier ou l'utilisateur root à renommer ou supprimer les fichiers dans un dossier.
+
+Le sticky Bit est activé lorsqu'il y a un `t` à la fin des permissions.
+
+Par exemple `rwxrwxrwxt` ou `rwxrwxrwxT`
+
+* Si le `t` est en minuscule c'est que le Sticky Bit a été activé.
+* Si le `T`est en majuscule c'est que tous les autres utilisateurs n'ont pas les droits d'execution et ne peuvent donc pas voir le contenu du dossier.
