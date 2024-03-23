@@ -8,7 +8,7 @@
 
 Les permissions s'applique au propriétaire, groupes et autres.
 
-![alt text](<Permissions.png>)
+![alt text](<Images\Permissions.png>)
 
 # Changer les permissions
 
