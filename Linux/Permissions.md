@@ -14,4 +14,12 @@ Les permissions s'applique au propriétaire, groupes et autres.
 
 Les permissions se changent avec la commande `chmod` en ajoutant avec `+` ou en supprimant avec `-` les droits R, W ou X au proriétaire `O`, au groupe `g` ou aux autres `a`
 
-Par exemple pour ajouter les droits de lectures aux "autres" il faut utiliser la commande `chmod a+r file.txt`
+Par exemple pour ajouter les droits de lectures aux "autres" il faut utiliser la commande 
+
+`chmod a+r file.txt`
+
+Il est également possible de le faire en utilisant une notation binaire. Le premier chiffre correspond au propriétaire, le 2ème au groupe et le dernier aux autres.
+
+`chmod 754 file.txt`
+
+![alt text](<Images/Notation Binaire.png>)
