@@ -30,5 +30,8 @@ Pour changer l'utilisateur ou le groupe propriétaire il faut utiliser la comman
 
 Exemple : `chown newuser:newgroupe file.txt`
 
-# SUID et SGID
+# SUID (Set User Id) et SGID (Set Group Id)
 
+Lorsque le SUID ou le SGID est paramètré sur un fichier cela permet à n'importe quel utilisateur ayant accés au fichier de l'éxécuter avec les droits du propriétaire du fichier. La lettre `s` est utilisé à la place du `x` dans les droits d'accès.
+
+Cela peut créer une grosse faille de sécurité car certaines applications permettent l'exécution d'un shell et si le propriétaire est root cela permet à n'importe qui d'ouvrir un shell en tant que root.
