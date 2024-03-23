@@ -51,5 +51,19 @@ Pour intérragir avec un procéssus et il faut lui envoyer un signal, les plus c
 * 3	(SIGQUIT)  : C'est le signal envoyé quand on fait un "CTRL + D" pour quitter.
 * 9	(SIGKILL) : C'est le signal envoyé pour forcer un programme à se fermer immédiatement.
 * 19 (SIGSTOP) : C'est le signal envoyé pour arréter un programme normalement.
+* 20 (SIGTSTP) : C'est le signal envoyé lorsqu'on fait un "CTRL + Z" dans un terminal pour suspendre un processus en cours.
 
 Si on veut forcer un programme à se fermer immédiatement on peut donc faire un `kill 9 <PID>`
+
+### Mettre un processus en arrière plan (Background)
+
+En faisant un "CTRL+Z" on peut mettre en arrière plan un processus. Il est possible possible de voir la liste des processus en arrière plan via la commande `jobs`.
+
+Cependant, en utilisant le "CTRL+Z" le processus s'arréte complétement. Pour que celui-ci continue de tourner en arrière plan il faut utiliser la commande `bg`.
+
+
+### Mettre un processus au premier plan (Foreground)
+
+Pour remettre un processus au premier plan il suffit d'utiliser la commande `fg <ID>` avec l'ID du processus à faire remonter au premier plan.
+
+Une fois un processus mis en arrière plan il n'y a plus besoin d'intéragir avec lui et une notification sera faite par le terminal pour dire que le processus est terminé.
