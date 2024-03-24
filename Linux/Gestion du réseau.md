@@ -22,3 +22,6 @@ Pour vérifier que les changements sont bien prises en compte il est possible d'
 Celui-ci regroupe toutes les configurations pour chaque interfaces.
 
 ![alt text](<Images/interfaces.png>)
+
+
+Pour redémarrer les service réseau : `systemctl restart networking`
