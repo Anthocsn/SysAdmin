@@ -20,3 +20,5 @@ Pour ajouter un serveur DNS il faut éditer le fichier dans /etc/resolv.conf.
 Pour vérifier que les changements sont bien prises en compte il est possible d'aller éditer le fichier suivants : /etc/network/interfaces
 
 Celui-ci regroupe toutes les configurations pour chaque interfaces.
+
+![alt text](<Images/interfaces.png>)
