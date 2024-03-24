@@ -27,7 +27,7 @@ Pour créer un service il faut :
 
 * Créer un fichier de service : `sudo vim /etc/systemd/system/mytimer.timer.d/mytimer.service`
 
-Dans le fichier timer il y 3 informations à renseigner :
+Dans le fichier service il y 3 informations à renseigner :
 
 * Unit : C'est une description du service.
 * Service : C'est l'emplacement du script à exécuter.
