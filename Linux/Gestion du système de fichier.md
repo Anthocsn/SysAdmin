@@ -8,4 +8,4 @@ Les gestions des disques inclus :
 * Les SSD
 * Les disques externe 
 
-L'outil principale pour gérer les disques s'appel [color=#26B260]fdisk[/color]
+L'outil principale pour gérer les disques s'appel [color=#26B260] fdisk [/color]
