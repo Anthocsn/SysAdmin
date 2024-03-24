@@ -21,7 +21,7 @@ Dans le fichier timer il y 3 informations à renseigner :
 * Timer : C'est quand la tâche sera déclenché : X minute après le démarrage du système, à X temps d'interval etc...
 * Install : Permet de définir ou installer le timer.
 
-![alt text](</Images/timer.png>)
+![alt text](<Images/timer.png>)
 
 Pour créer un service il faut : 
 
