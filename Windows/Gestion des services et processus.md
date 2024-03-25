@@ -39,3 +39,20 @@ LSASS est une cible de valeur extrêmement élevée car plusieurs outils existen
 
 ## Service Permissions
 
+Il est fortement recommandé de créer un compte d'utilisateur individuel pour exécuter des services réseau critiques. Ceux-ci sont appelés comptes de service.
+
+Le chemin d'accès à l'exécutable est le chemin d'accès complet au programme et à la commande à exécuter au démarrage du service. Si les autorisations NTFS du répertoire de destination sont configurées avec des autorisations faibles, un attaquant pourrait remplacer l'exécutable d'origine par un exécutable créé à des fins malveillantes.
+
+La plupart des services fonctionnent avec les privilèges LocalSystem par défaut, ce qui est le niveau d'accès le plus élevé autorisé sur un système d'exploitation Windows individuel. 
+
+Toutes les applications n'ont pas besoin d'autorisations au niveau du compte du système local, il est donc bénéfique d'effectuer des recherches au cas par cas lorsque vous envisagez d'installer de nouvelles applications dans un environnement Windows. 
+
+Comptes de service intégrés notables dans Windows : 
+
+* LocalService
+* NetworkService
+* LocalSystem
+
+L'onglet de récupération permet de configurer les étapes en cas d'échec d'un service. Ce service peut être configuré pour exécuter un programme après la première défaillance. C'est encore un autre vecteur qu'un attaquant pourrait utiliser pour exécuter des programmes malveillants en utilisant un service légitime.
+
+
