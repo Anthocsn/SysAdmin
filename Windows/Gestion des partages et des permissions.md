@@ -1,4 +1,4 @@
-# Gestion des permissions
+# Gestion des partages et des permissions
 
 ## Types de permissions
 
@@ -27,7 +27,7 @@ Si les autorisations doivent être définies explicitement, un administrateur pe
 Les autorisations de partage s'appliquent lorsque le dossier est accessible via SMB, généralement à partir d'un autre système sur le réseau. Cela signifie que quelqu'un qui s'est connecté localement à la machine ou via RDP peut accéder au dossier et aux fichiers partagés en naviguant simplement jusqu'à l'emplacement du système de fichiers et qu'il suffit de prendre en compte les autorisations NTFS. Les autorisations au niveau NTFS offrent aux administrateurs un contrôle beaucoup plus granulaire sur ce que les utilisateurs peuvent faire dans un dossier ou un fichier.
 
 
-## Integrity Control Access Control List (icacls)
+### Integrity Control Access Control List (icacls)
 
 Les autorisations NTFS sur les fichiers et dossiers dans Windows peuvent être gérées à l'aide de l'interface graphique de l'Explorateur de fichiers sous l'onglet Sécurité. 
 
@@ -60,6 +60,10 @@ Mais étant donné que (oi) et (ci) n'ont pas été inclus dans la commande iln'
 
 Pour supprimer les droits on utile la commande `icacls c:\users /remove joe`.
 
+## Gestion des partages 
 
+* Net Share : Permet d'affiche tous les dossier partagés
 
+En GUI cela permet aussi de voir les sessions ouvertes ainsi que les fichiers.
 
+![alt text](<Images/partages.png>)
