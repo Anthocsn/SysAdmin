@@ -41,6 +41,9 @@ These hives are useful for maintaining access to the system. These are called Ru
 
 ## Application Whitelisting
 
+Une liste blanche d'applications est une liste d'applications logicielles approuvées ou d'exécutables autorisés à être présents et à s'exécuter sur un système. L'objectif est de protéger l'environnement contre les logiciels malveillants nuisibles et les logiciels non approuvés qui ne correspondent pas aux besoins commerciaux spécifiques d'une organisation. La mise en œuvre d'une liste blanche forcée peut être un défi, en particulier dans un grand réseau. 
+
+Une organisation devrait d'abord mettre en œuvre une liste blanche en mode audit pour s'assurer que toutes les applications nécessaires sont sur liste blanche et ne sont pas bloquées par une erreur d'omission, ce qui peut causer plus de problèmes qu'elle ne le résout.
 
 ## AppLocker
 
