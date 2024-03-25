@@ -24,3 +24,18 @@ Il y a le mode d'approbation de l'administrateur dans UAC, qui est conçu pour e
 
 Avec un utilisateur standard qui n'a aucun droit pour l'installation, l'exécution sera refusée, ou on vous demandera le mot de passe de l'administrateur. Cette invite de consentement interrompt l'exécution de scripts ou de binaires que les logiciels malveillants ou les attaquants tentent d'exécuter jusqu'à ce que l'utilisateur entre le mot de passe ou confirme l'exécution.
 
+## Registry 
+
+Le registre est une base de données hiérarchique dans Windows critique pour le système d'exploitation. Il stocke les paramètres de bas niveau pour le système d'exploitation Windows et les applications qui choisissent de l'utiliser. 
+
+Il est divisé en données spécifiques à l'ordinateur et en données spécifiques à l'utilisateur. Nous pouvons ouvrir l'éditeur de registre en tapant `regedit` à partir de la ligne de commande ou de la barre de recherche Windows.
+
+L'ensemble du registre du système est stocké dans plusieurs fichiers sur le système d'exploitation. Vous pouvez les trouver sous `C:\Windows\System32\Config\`.
+
+
+## Run and RunOnce Registry Keys
+
+There are also so-called registry hives, which contain a logical group of keys, subkeys, and values to support software and files loaded into memory when the operating system is started or a user logs in. 
+
+These hives are useful for maintaining access to the system. These are called Run and RunOnce registry keys..
+
