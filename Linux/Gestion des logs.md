@@ -31,3 +31,18 @@ Ces journaux contiennent des informations sur les tentatives d'authentification 
 
 ## Application Logs
 
+Ces journaux contiennent des informations sur les activités d'applications spécifiques s'exécutant sur le système. Ils sont souvent stockés dans leurs propres fichiers, tels que `/var/log/apache2/error.log` pour le serveur web Apache ou `/var/log/mysql/error.log` pour le serveur de base de données MySQL.
+
+En examinant ces journaux, nous pouvons identifier des vulnérabilités ou des erreurs de configuration potentielles. Par exemple, les journaux d'accès peuvent être utilisés pour suivre les demandes faites à un serveur Web, tandis que les journaux d'audit peuvent être utilisés pour suivre les modifications apportées au système ou à des fichiers spécifiques. Ces journaux peuvent être utilisés pour identifier les tentatives d'accès non autorisées, l'exfiltration de données ou toute autre activité suspecte.
+
+
+Sur les systèmes Linux, la plupart des services courants ont des emplacements par défaut pour les journaux d'accès, par exemple `/var/log/apache2/access.log`
+
+## Security Logs
+
+Ces journaux de sécurité et leurs événements sont souvent enregistrés dans une variété de fichiers journaux, en fonction de l'application ou de l'outil de sécurité spécifique utilisé. 
+
+Par exemple, l'application Fail2ban enregistre les tentatives de connexion échouées dans le fichier `/var/log/fail2ban.log`.
+
+
+Il est important de se familiariser avec les emplacements par défaut pour les journaux d'accès et autres fichiers journaux sur les systèmes Linux, car ces informations peuvent être utiles lors de l'exécution d'une évaluation de sécurité ou d'un test de pénétration. En comprenant comment les événements liés à la sécurité sont enregistrés et stockés, nous pouvons analyser plus efficacement les données du journal et identifier les problèmes de sécurité potentiels.
