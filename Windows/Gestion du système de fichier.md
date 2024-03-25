@@ -1,5 +1,7 @@
 # Gestion du système de fichier
 
+## Système de fichier
+
 5 types supportés :
 
 * FAT12
