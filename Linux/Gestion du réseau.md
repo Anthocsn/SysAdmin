@@ -41,20 +41,4 @@ Voici les différentes technologies CNA qui peuvent être utilisées pour améli
 
 * Ping : Permet d'envoyer des paquets de test pour voir si une machine réponds
 * Traceroute : Permet de suivre le chemin emprunté par un paquet pour voir à quel niveau ça pose problème.
-* netstat : Avec l'option -a permet de voir le nombre de connexion active
-
-## Hardening
-
-Plusieurs mécanismes sont très efficaces pour sécuriser les systèmes Linux pour assurer la sécurité de nos données et d'autres entreprises. Trois de ces mécanismes sont SELinux, AppArmor et les TCP wrappers. Ces outils sont conçus pour protéger les systèmes Linux contre diverses menaces à la sécurité, de l'accès non autorisé aux attaques malveillantes, en particulier lors de la réalisation d'un test de pénétration.
-
-### SELinux
-
-SELinux est un système MAC intégré au noyau Linux. Il est conçu pour fournir un contrôle d'accès précis sur les ressources et les applications du système. SELinux fonctionne en appliquant une politique qui définit les contrôles d'accès pour chaque processus et fichier sur le système. Il offre un niveau de sécurité plus élevé en limitant les dommages qu'un processus compromis peut causer.
-
-### AppArmor
-
-AppArmor est également un système MAC qui offre un niveau de contrôle similaire sur les ressources et les applications du système, mais il fonctionne légèrement différemment. AppArmor est implémenté en tant que module de sécurité Linux (LSM) et utilise des profils d'application pour définir les ressources auxquelles une application peut accéder. AppArmor est généralement plus facile à utiliser et à configurer que SELinux, mais peut ne pas fournir le même niveau de granularité de contrôle
-
-### TCP wrappers
-
-Les TCP wrappers sont un mécanisme de contrôle d'accès au réseau basé sur l'hôte qui peut être utilisé pour restreindre l'accès aux services réseau en fonction de l'adresse IP du système client. Il fonctionne en interceptant les demandes de réseau entrantes et en comparant l'adresse IP du système client aux règles de contrôle d'accès. Ceux-ci sont utiles pour limiter l'accès aux services réseau à partir de systèmes non autorisés.
+* netstat : Avec l'option -a permet de voir le nombre de connexion active.
