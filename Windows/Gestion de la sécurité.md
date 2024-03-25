@@ -51,7 +51,9 @@ https://learn.microsoft.com/en-us/windows/security/application-security/applicat
 
 ## Local Group Policy
 
+La stratégie de groupe permet aux administrateurs de définir, de configurer et d'ajuster une variété de paramètres. Dans un environnement de domaine, les stratégies de groupe sont poussées vers le bas à partir d'un contrôleur de domaine sur toutes les machines liées au domaine auxquelles les objets de stratégie de groupe (GPO) sont liés. Ces paramètres peuvent également être définis sur des machines individuelles à l'aide de la stratégie de groupe local.
 
+Nous pouvons ouvrir l'éditeur de stratégie de groupe local en ouvrant le menu Démarrer et en tapant `gpedit.msc`. L'éditeur est divisé en deux catégories sous la politique informatique locale - Configuration de l'ordinateur et Configuration de l'utilisateur.
 
 ## Windows Defender Antivirus
 
