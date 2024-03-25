@@ -55,4 +55,19 @@ Comptes de service intégrés notables dans Windows :
 
 L'onglet de récupération permet de configurer les étapes en cas d'échec d'un service. Ce service peut être configuré pour exécuter un programme après la première défaillance. C'est encore un autre vecteur qu'un attaquant pourrait utiliser pour exécuter des programmes malveillants en utilisant un service légitime.
 
+## Examining services using sc
 
+sc est la version en ligne de commande de services.msc.
+
+* sc qc <service> : Permet d'interroger un service pour l'examiner.
+* sc <ip> or <hostname> <service> : Permet d'interroger un service pour l'examiner depuis le réseau.
+* sc start or stop : permet de démarrer ou d'éteindre un service.
+* sc sdshow <service> : permet d'examiner les permissions du service en ligne de commande.
+
+Chaque objet nommé dans Windows est un objet sécurisable, et même certains objets sans nom sont sécurisables. S'il est sécurisé dans un système d'exploitation Windows, il aura un descripteur de sécurité. Les descripteurs de sécurité identifient le propriétaire de l'objet et un groupe primaire contenant une liste de contrôle d'accès discrétionnaire (DACL) et une liste de contrôle d'accès au système (SACL).
+
+## Examine service permissions using PowerShell
+
+À l'aide de l'applet de commande `Get-Acl` PowerShell, nous pouvons examiner les autorisations de service en ciblant le chemin d'accès d'un service spécifique dans le registre.
+
+Cette commande renvoie des autorisations de compte spécifiques dans un format facile à lire et en SDDL. De plus, le SID qui représente chaque principal de sécurité (utilisateur et/ou groupe) est présent dans la SDDL. C'est quelque chose que nous n'ocentons pas lors de l'exécution de sc à partir de l'invite de commande.
