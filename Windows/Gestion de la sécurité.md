@@ -52,6 +52,7 @@ https://learn.microsoft.com/en-us/windows/security/application-security/applicat
 ## Local Group Policy
 
 
+
 ## Windows Defender Antivirus
 
 
