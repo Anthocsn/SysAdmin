@@ -57,4 +57,10 @@ Nous pouvons ouvrir l'éditeur de stratégie de groupe local en ouvrant le menu 
 
 ## Windows Defender Antivirus
 
+Defender est livré avec plusieurs fonctionnalités telles que la protection en temps réel, qui protège l'appareil contre les menaces connues en temps réel et la protection livrée dans le cloud, qui fonctionne en conjonction avec la soumission automatique d'échantillons pour télécharger des fichiers suspects à des fins d'analyse. 
 
+Lorsque les fichiers sont soumis au service de protection du cloud, ils sont "verrouillés" pour empêcher tout comportement potentiellement malveillant jusqu'à ce que l'analyse soit terminée. Une autre fonctionnalité est la protection contre le sabotage, qui empêche la modification des paramètres de sécurité par le biais du registre, des applets de commande PowerShell ou de la stratégie de groupe.
+
+Windows Defender est géré à partir du centre de sécurité, à partir duquel une variété de fonctionnalités et de paramètres de sécurité supplémentaires peuvent être activés et gérés.
+
+Bien qu'aucune solution antivirus ne soit parfaite, Windows Defender se débrouille très bien dans les tests de taux de détection mensuels par rapport à d'autres solutions, même payantes. De plus, comme il est préinstallé dans le cadre du système d'exploitation, il n'introduit pas de "bloat" dans le système, comme d'autres programmes qui ajoutent des extensions de navigateur et des trackers. D'autres produits sont connus pour ralentir le système en raison de la façon dont ils s'accrochent au système d'exploitation.
