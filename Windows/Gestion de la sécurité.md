@@ -39,3 +39,14 @@ There are also so-called registry hives, which contain a logical group of keys, 
 
 These hives are useful for maintaining access to the system. These are called Run and RunOnce registry keys..
 
+## Application Whitelisting
+
+
+## AppLocker
+
+
+## Local Group Policy
+
+## Windows Defender Antivirus
+
+
