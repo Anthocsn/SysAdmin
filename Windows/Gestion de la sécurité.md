@@ -45,10 +45,12 @@ Une liste blanche d'applications est une liste d'applications logicielles approu
 
 Une organisation devrait d'abord mettre en œuvre une liste blanche en mode audit pour s'assurer que toutes les applications nécessaires sont sur liste blanche et ne sont pas bloquées par une erreur d'omission, ce qui peut causer plus de problèmes qu'elle ne le résout.
 
-## AppLocker
+AppLocker is Microsoft's application whitelisting solution and was first introduced in Windows 7. AppLocker gives system administrators control over which applications and files users can run. It gives granular control over executables, scripts, Windows installer files, DLLs, packaged apps, and packed app installers.
 
+https://learn.microsoft.com/en-us/windows/security/application-security/application-control/windows-defender-application-control/applocker/applocker-overview
 
 ## Local Group Policy
+
 
 ## Windows Defender Antivirus
 
