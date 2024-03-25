@@ -37,3 +37,5 @@ Vérifie leur tentative de connexion et crée des jetons d'accès en fonction de
 
 LSASS est une cible de valeur extrêmement élevée car plusieurs outils existent pour extraire à la fois du texte clair et des informations d'identification hachées stockées en mémoire par ce processus.
 
+## Service Permissions
+
