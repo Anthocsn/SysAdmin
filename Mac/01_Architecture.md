@@ -12,3 +12,8 @@
 * Application Sandbox : Par défaut, macOS et toutes les applications qu'il contient utilisent le concept de sandboxing, qui restreint l'accès de l'application en dehors des ressources nécessaires à son exécution.
 * Cocoa : Cocoa est la couche de gestion des applications et l'API utilisées avec macOS. Il est responsable du comportement de nombreuses applications intégrées dans macOS.
 
+## System Hierarchy
+
+![alt text](<Images/hierarchy.png>)
+
+![alt text](<Images/hierarchy2.png>)
