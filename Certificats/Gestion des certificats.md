@@ -16,7 +16,7 @@ Répondre aux questions suivantes :
 * **Common name** : le FQDN complet ou le wildcard (exempple : sous-domaine.domaine.tld ou *.domaine.tld)
 * **Password** : Définir le mot de passe
 
-Si d'autres questions sont posées, elles peuvent être ignorer en laissant le champs vide et en appuyant sur "Enter".
+Si d'autres questions sont posées, elles peuvent être ignorées en laissant le champs vide et en appuyant sur "Enter".
 
 Attention, en plus du .CSR il est important de garder le fichier .key ainsi que le mot de passe utilisé.
 
