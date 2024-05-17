@@ -13,7 +13,7 @@ Répondre aux questions suivantes :
 * **Country name** : FR
 * **Locality name** : Paris
 * **Organisation Name** : Le nom du client
-* **Common name** : le FQDN complet ou le wildcard (exempple : sous-domaine.domaine.tld ou *.domaine.tld)
+* **Common name** : le FQDN complet ou le wildcard (exemple : sous-domaine.domaine.tld ou *.domaine.tld)
 * **Password** : Définir le mot de passe
 
 Si d'autres questions sont posées, elles peuvent être ignorées en laissant le champs vide et en appuyant sur "Enter".
