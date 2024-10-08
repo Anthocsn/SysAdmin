@@ -2,7 +2,7 @@
 
 ## Prérequis
 
-Avant de configurer un pare-feu il faut s'assurer d'avoir suivi les étapes suivants :
+Avant de configurer un pare-feu il faut s'assurer d'avoir suivi les étapes suivantes :
 
 * Activation du produit : https://myproducts.watchguard.com/manage-products
 * Affectation de la licence (Si du MSSP) : https://portal.watchguard.com/msspcommand
@@ -19,5 +19,7 @@ Avant de configurer un pare-feu il faut s'assurer d'avoir suivi les étapes suiv
 
 * Se connecter sur l'ancien pare-feu via WSM puis enregistrer la configuration en local
 * Ouvrir le fichier de configuration local via WSM et l'enregistrer sur le nouveau pare-feu.
-* Importer la clé de fonctionnalité 
+* Importer la clé de fonctionnalité
+* Activer la connexion à Watchguard Cloud
 * Modifier le mot de passe du compte Admin et Status
+* Ajouter le nouveau Pare-feu sur le serveur de Management
