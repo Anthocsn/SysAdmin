@@ -18,7 +18,7 @@ Avant de configurer un pare-feu il faut s'assurer d'avoir suivi les étapes suiv
 ### Remplacement
 
 * Se connecter sur l'ancien pare-feu via WSM puis enregistrer la configuration en local
-* Ouvrir le fichier de configuration local via WSM et l'enregistrer sur le nouveau pare-feu.
+* Ouvrir le fichier de configuration xml via Policy Manager (Sans se connecter au pare-feu ou au serveur) puis l'enregistrer sur le nouveau pare-feu.
 * Importer la clé de fonctionnalité
 * Modifier le mot de passe du compte Admin et Status
 * Activer la connexion à Watchguard Cloud (A faire une fois le pare-feu sur site)
