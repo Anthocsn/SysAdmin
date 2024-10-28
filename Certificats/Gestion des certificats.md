@@ -28,6 +28,3 @@ Pour cela il faut récupérer le certificat .crt puis le fichier .key qui a ét�
 
 
 
-test
-
-
