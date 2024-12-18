@@ -20,7 +20,7 @@ Cet outil compte le nombre de tentatives de connexion infructueuses, et si un ut
 
 ## SSH
 
-Si SSH est ouvert sur le serveur, la configuration doit être configurée pour interdire la connexion par mot de passe et interdire à l'utilisateur root de se connecter via SSH. Il est également important d'éviter de se connecter et d'administrer le système en tant qu'utilisateur racine dans la mesure du possible et de gérer adéquatement le contrôle d'accès.
+Si SSH est ouvert sur le serveur, la configuration doit être configurée pour interdire la connexion par mot de passe et interdire à l'utilisateur root de se connecter via SSH. Il est également important d'éviter de se connecter et d'administrer le système en tant qu'utilisateur root dans la mesure du possible et de gérer adéquatement le contrôle d'accès.
 
 ## Audit 
 
